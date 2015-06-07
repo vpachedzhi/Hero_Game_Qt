@@ -1,1 +1,1 @@
-print('Marto e gay')
+# Fuck yeah
