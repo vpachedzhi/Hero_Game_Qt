@@ -10,8 +10,8 @@ class Hero_Display(QtGui.QWidget):
 
         self.setFixedSize(150, 50)
         grid = QtGui.QGridLayout()
-        health_lcd = QtGui.QLCDNumber()
-        magic_lcd = QtGui.QLCDNumber()
+        health_lcd = QtGui.QLCDNumber(self)
+        magic_lcd = QtGui.QLCDNumber(self)
         self.hero = Hero()
         health_lcd.display(self.hero.health)
         magic_lcd.display(self.hero.magic)
