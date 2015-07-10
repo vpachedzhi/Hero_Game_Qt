@@ -1,6 +1,4 @@
 import sys
-from HeroDisplay import Hero_Display
-from Map import Map
 from PyQt4 import QtGui
 from MainWindow import MainWindow
 
